@@ -1,0 +1,21 @@
+{
+    "name": "Records Logger", 
+    "description": "Log all your records. If you are a Head Hunter, Lead Generator, or just a Business Freak like myself. :-) ",
+    "authors": [ {
+        "name": "Basel M. Habayeb",
+        "email": "haba.mylo@gmail.com"
+       } ],
+    "manifest_version": 3, 
+    "version": "1.0", 
+    "action": {
+        "default_popup": "index.html", 
+        "default_icon": "servicica_logo-01.png"
+    },
+    "permissions": [
+        "storage", 
+        "tabs"
+    ], 
+    "content_security_policy": {
+        "extension_page": "default-src 'unsafe-inline'"
+      } 
+}
